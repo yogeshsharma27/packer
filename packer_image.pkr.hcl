@@ -39,7 +39,7 @@ build {
   ]
 
 provisioner "shell" {
-  script = "./ansible/playbook.sh"
+  script = "playbook.sh"
     #"amazon-linux-extras install ansible2"
   
 }
